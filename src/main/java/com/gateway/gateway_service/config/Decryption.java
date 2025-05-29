@@ -38,7 +38,7 @@ public class Decryption {
 	}
 
 	public String doDecrypt(EncryptedPayload payload) {
-		log.info("doDecrypt method invoked..");
+		log.info("doDecrypt method invoked...");
 
 		return Try.of(() -> {
 
